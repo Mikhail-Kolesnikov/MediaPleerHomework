@@ -38,13 +38,13 @@ public class Video implements Playable {
 
     @Override
     public void play() {
-        System.out.println("Звучит видеотрек " + track);
+        System.out.println("Проигрывается видео: " + track);
 
     }
 
     @Override
     public void printInfo() {
-        System.out.println("Видеотрек " + track);
+//        System.out.println("Видеотрек: " + track);
         Playable.super.printInfo();
     }
 }

@@ -3,6 +3,6 @@ public interface Playable {
 
 
     default void printInfo(){
-        System.out.println("Мы имеем дело с запускаемы фаилом");
+        System.out.println("Мы имеем дело с запускаемы фаилом ");
     }
 }

@@ -11,5 +11,6 @@ public class Main {
         mediaPlayer.audioOrVideo(possible,tryToDo,humanTears);
         mediaPlayer.playAllAudioAndVideo();
 
+
     }
 }

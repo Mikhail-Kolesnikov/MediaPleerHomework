@@ -38,14 +38,14 @@ public class AudioTrack implements Playable {
 
     @Override
     public void play() {
-
-        System.out.println("Звучит аудиоотрек " + track);
+        System.out.println();
+        System.out.println("Проигрывается аудиоотрек: " + track);
 
     }
 
     @Override
     public void printInfo() {
-        System.out.println("Аудиотрек " + track);
+//        System.out.println("Аудиотрек: " + track);
         Playable.super.printInfo();
     }
 }
