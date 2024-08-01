@@ -35,6 +35,7 @@ public class MediaPlayer {
         for (Playable track : tracks) {
             listOfTracks.add(track);
 
+
         }
 
     }
